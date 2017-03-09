@@ -1,0 +1,19 @@
+platform :ios, '8.0'
+
+target 'AirHive' do
+  use_frameworks!
+
+  # Pods for AirHive
+  pod 'Swifter', '~> 1.3.2'
+
+  target 'AirHiveTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AirHiveUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

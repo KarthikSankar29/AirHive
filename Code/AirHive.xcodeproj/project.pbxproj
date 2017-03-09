@@ -1,0 +1,795 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7DC8B6BCAF4DC51333D6AE22 /* Pods_AirHive.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8E6C9C0B8DD3C6EA6F4461E /* Pods_AirHive.framework */; };
+		8B421FD260F4CD04FF38A06D /* Pods_AirHiveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 229C28907E4E8231B250939D /* Pods_AirHiveTests.framework */; };
+		CF5117E21E720C71008EA34C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5117E11E720C71008EA34C /* AppDelegate.swift */; };
+		CF5117E41E720C71008EA34C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5117E31E720C71008EA34C /* ViewController.swift */; };
+		CF5117E71E720C71008EA34C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5117E51E720C71008EA34C /* Main.storyboard */; };
+		CF5117E91E720C71008EA34C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF5117E81E720C71008EA34C /* Assets.xcassets */; };
+		CF5117EC1E720C71008EA34C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF5117EA1E720C71008EA34C /* LaunchScreen.storyboard */; };
+		CF5117F71E720C71008EA34C /* AirHiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5117F61E720C71008EA34C /* AirHiveTests.swift */; };
+		CF5118021E720C71008EA34C /* AirHiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF5118011E720C71008EA34C /* AirHiveUITests.swift */; };
+		D462D718CC40123A583E6156 /* Pods_AirHiveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE4792635843B0D57B22856D /* Pods_AirHiveUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF5117F31E720C71008EA34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5117D61E720C70008EA34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5117DD1E720C70008EA34C;
+			remoteInfo = AirHive;
+		};
+		CF5117FE1E720C71008EA34C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF5117D61E720C70008EA34C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF5117DD1E720C70008EA34C;
+			remoteInfo = AirHive;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		090E6F04D170A71EFB09EC9B /* Pods-AirHiveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHiveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirHiveUITests/Pods-AirHiveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		229C28907E4E8231B250939D /* Pods_AirHiveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirHiveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		31CB7A4A2FDDE2A911E6AAE1 /* Pods-AirHive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirHive/Pods-AirHive.debug.xcconfig"; sourceTree = "<group>"; };
+		35D4018D78594A2B39A5CD65 /* Pods-AirHive.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHive.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirHive/Pods-AirHive.release.xcconfig"; sourceTree = "<group>"; };
+		7D882A848BA5C1D97560CEDA /* Pods-AirHiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirHiveTests/Pods-AirHiveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9F17DC283F9647EE6837EA /* Pods-AirHiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AirHiveUITests/Pods-AirHiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8E6C9C0B8DD3C6EA6F4461E /* Pods_AirHive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirHive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5117DE1E720C71008EA34C /* AirHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5117E11E720C71008EA34C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF5117E31E720C71008EA34C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CF5117E61E720C71008EA34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF5117E81E720C71008EA34C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF5117EB1E720C71008EA34C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF5117ED1E720C71008EA34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5117F21E720C71008EA34C /* AirHiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirHiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5117F61E720C71008EA34C /* AirHiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirHiveTests.swift; sourceTree = "<group>"; };
+		CF5117F81E720C71008EA34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF5117FD1E720C71008EA34C /* AirHiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AirHiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF5118011E720C71008EA34C /* AirHiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirHiveUITests.swift; sourceTree = "<group>"; };
+		CF5118031E720C71008EA34C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE4792635843B0D57B22856D /* Pods_AirHiveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AirHiveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01A63CA16C67B563D2A6680 /* Pods-AirHiveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AirHiveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AirHiveTests/Pods-AirHiveTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF5117DB1E720C70008EA34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DC8B6BCAF4DC51333D6AE22 /* Pods_AirHive.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5117EF1E720C71008EA34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B421FD260F4CD04FF38A06D /* Pods_AirHiveTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5117FA1E720C71008EA34C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D462D718CC40123A583E6156 /* Pods_AirHiveUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AC853EEC01D1582454194C9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31CB7A4A2FDDE2A911E6AAE1 /* Pods-AirHive.debug.xcconfig */,
+				35D4018D78594A2B39A5CD65 /* Pods-AirHive.release.xcconfig */,
+				7D882A848BA5C1D97560CEDA /* Pods-AirHiveTests.debug.xcconfig */,
+				F01A63CA16C67B563D2A6680 /* Pods-AirHiveTests.release.xcconfig */,
+				AE9F17DC283F9647EE6837EA /* Pods-AirHiveUITests.debug.xcconfig */,
+				090E6F04D170A71EFB09EC9B /* Pods-AirHiveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		75998EE6356FBCD121B492D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8E6C9C0B8DD3C6EA6F4461E /* Pods_AirHive.framework */,
+				229C28907E4E8231B250939D /* Pods_AirHiveTests.framework */,
+				EE4792635843B0D57B22856D /* Pods_AirHiveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF5117D51E720C70008EA34C = {
+			isa = PBXGroup;
+			children = (
+				CF5117E01E720C71008EA34C /* AirHive */,
+				CF5117F51E720C71008EA34C /* AirHiveTests */,
+				CF5118001E720C71008EA34C /* AirHiveUITests */,
+				CF5117DF1E720C71008EA34C /* Products */,
+				3AC853EEC01D1582454194C9 /* Pods */,
+				75998EE6356FBCD121B492D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF5117DF1E720C71008EA34C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF5117DE1E720C71008EA34C /* AirHive.app */,
+				CF5117F21E720C71008EA34C /* AirHiveTests.xctest */,
+				CF5117FD1E720C71008EA34C /* AirHiveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF5117E01E720C71008EA34C /* AirHive */ = {
+			isa = PBXGroup;
+			children = (
+				CF5118151E7213B6008EA34C /* Utility */,
+				CF5118131E721391008EA34C /* Controllers */,
+				CF51180F1E720CE4008EA34C /* App Delegate */,
+				CF5118101E720CEE008EA34C /* View Controllers */,
+				CF5118111E720D03008EA34C /* Storyboards */,
+				CF5118121E720D19008EA34C /* Resources */,
+			);
+			path = AirHive;
+			sourceTree = "<group>";
+		};
+		CF5117F51E720C71008EA34C /* AirHiveTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5117F61E720C71008EA34C /* AirHiveTests.swift */,
+				CF5117F81E720C71008EA34C /* Info.plist */,
+			);
+			path = AirHiveTests;
+			sourceTree = "<group>";
+		};
+		CF5118001E720C71008EA34C /* AirHiveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CF5118011E720C71008EA34C /* AirHiveUITests.swift */,
+				CF5118031E720C71008EA34C /* Info.plist */,
+			);
+			path = AirHiveUITests;
+			sourceTree = "<group>";
+		};
+		CF51180F1E720CE4008EA34C /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				CF5117E11E720C71008EA34C /* AppDelegate.swift */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		CF5118101E720CEE008EA34C /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF5117E31E720C71008EA34C /* ViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		CF5118111E720D03008EA34C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				CF5117EA1E720C71008EA34C /* LaunchScreen.storyboard */,
+				CF5117E51E720C71008EA34C /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		CF5118121E720D19008EA34C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CF5117E81E720C71008EA34C /* Assets.xcassets */,
+				CF5117ED1E720C71008EA34C /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF5118131E721391008EA34C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		CF5118151E7213B6008EA34C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF5117DD1E720C70008EA34C /* AirHive */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5118061E720C71008EA34C /* Build configuration list for PBXNativeTarget "AirHive" */;
+			buildPhases = (
+				BD29CC3FBFE8951BFC82FF72 /* [CP] Check Pods Manifest.lock */,
+				CF5117DA1E720C70008EA34C /* Sources */,
+				CF5117DB1E720C70008EA34C /* Frameworks */,
+				CF5117DC1E720C70008EA34C /* Resources */,
+				E2354ED56D5BAC6632A24FE7 /* [CP] Embed Pods Frameworks */,
+				969CF4570026544C17DF8675 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AirHive;
+			productName = AirHive;
+			productReference = CF5117DE1E720C71008EA34C /* AirHive.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF5117F11E720C71008EA34C /* AirHiveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF5118091E720C71008EA34C /* Build configuration list for PBXNativeTarget "AirHiveTests" */;
+			buildPhases = (
+				E0F1DBE3DFED72B1D219B43E /* [CP] Check Pods Manifest.lock */,
+				CF5117EE1E720C71008EA34C /* Sources */,
+				CF5117EF1E720C71008EA34C /* Frameworks */,
+				CF5117F01E720C71008EA34C /* Resources */,
+				E519AA1910BDA4AC3BCC2951 /* [CP] Embed Pods Frameworks */,
+				2E8E0C2388DD09626552FC5F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5117F41E720C71008EA34C /* PBXTargetDependency */,
+			);
+			name = AirHiveTests;
+			productName = AirHiveTests;
+			productReference = CF5117F21E720C71008EA34C /* AirHiveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CF5117FC1E720C71008EA34C /* AirHiveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF51180C1E720C71008EA34C /* Build configuration list for PBXNativeTarget "AirHiveUITests" */;
+			buildPhases = (
+				30B11EA7C06D80310F5E3700 /* [CP] Check Pods Manifest.lock */,
+				CF5117F91E720C71008EA34C /* Sources */,
+				CF5117FA1E720C71008EA34C /* Frameworks */,
+				CF5117FB1E720C71008EA34C /* Resources */,
+				B42F18A4F02B2A0A163C06F9 /* [CP] Embed Pods Frameworks */,
+				72585F9C69C20CB7BAE9FEFE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF5117FF1E720C71008EA34C /* PBXTargetDependency */,
+			);
+			name = AirHiveUITests;
+			productName = AirHiveUITests;
+			productReference = CF5117FD1E720C71008EA34C /* AirHiveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF5117D61E720C70008EA34C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Karthik Sankar";
+				TargetAttributes = {
+					CF5117DD1E720C70008EA34C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HCZPEUR3M7;
+						ProvisioningStyle = Manual;
+					};
+					CF5117F11E720C71008EA34C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HCZPEUR3M7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF5117DD1E720C70008EA34C;
+					};
+					CF5117FC1E720C71008EA34C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HCZPEUR3M7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF5117DD1E720C70008EA34C;
+					};
+				};
+			};
+			buildConfigurationList = CF5117D91E720C70008EA34C /* Build configuration list for PBXProject "AirHive" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF5117D51E720C70008EA34C;
+			productRefGroup = CF5117DF1E720C71008EA34C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF5117DD1E720C70008EA34C /* AirHive */,
+				CF5117F11E720C71008EA34C /* AirHiveTests */,
+				CF5117FC1E720C71008EA34C /* AirHiveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF5117DC1E720C70008EA34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5117EC1E720C71008EA34C /* LaunchScreen.storyboard in Resources */,
+				CF5117E91E720C71008EA34C /* Assets.xcassets in Resources */,
+				CF5117E71E720C71008EA34C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5117F01E720C71008EA34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5117FB1E720C71008EA34C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E8E0C2388DD09626552FC5F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirHiveTests/Pods-AirHiveTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30B11EA7C06D80310F5E3700 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		72585F9C69C20CB7BAE9FEFE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirHiveUITests/Pods-AirHiveUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		969CF4570026544C17DF8675 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirHive/Pods-AirHive-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B42F18A4F02B2A0A163C06F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirHiveUITests/Pods-AirHiveUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD29CC3FBFE8951BFC82FF72 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F1DBE3DFED72B1D219B43E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E2354ED56D5BAC6632A24FE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirHive/Pods-AirHive-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E519AA1910BDA4AC3BCC2951 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AirHiveTests/Pods-AirHiveTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF5117DA1E720C70008EA34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5117E41E720C71008EA34C /* ViewController.swift in Sources */,
+				CF5117E21E720C71008EA34C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5117EE1E720C71008EA34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5117F71E720C71008EA34C /* AirHiveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF5117F91E720C71008EA34C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF5118021E720C71008EA34C /* AirHiveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF5117F41E720C71008EA34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5117DD1E720C70008EA34C /* AirHive */;
+			targetProxy = CF5117F31E720C71008EA34C /* PBXContainerItemProxy */;
+		};
+		CF5117FF1E720C71008EA34C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF5117DD1E720C70008EA34C /* AirHive */;
+			targetProxy = CF5117FE1E720C71008EA34C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF5117E51E720C71008EA34C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5117E61E720C71008EA34C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF5117EA1E720C71008EA34C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF5117EB1E720C71008EA34C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF5118041E720C71008EA34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF5118051E720C71008EA34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF5118071E720C71008EA34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31CB7A4A2FDDE2A911E6AAE1 /* Pods-AirHive.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Karthik Sankar (58H27VT8WV)";
+				DEVELOPMENT_TEAM = HCZPEUR3M7;
+				INFOPLIST_FILE = AirHive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthiksankar.airhiveapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "335f5d83-1404-4f4b-bd21-2d0f149e6fb9";
+				PROVISIONING_PROFILE_SPECIFIER = "AirHive-DevProfile";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF5118081E720C71008EA34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35D4018D78594A2B39A5CD65 /* Pods-AirHive.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Karthik Sankar (58H27VT8WV)";
+				DEVELOPMENT_TEAM = HCZPEUR3M7;
+				INFOPLIST_FILE = AirHive/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthiksankar.airhiveapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "335f5d83-1404-4f4b-bd21-2d0f149e6fb9";
+				PROVISIONING_PROFILE_SPECIFIER = "AirHive-DevProfile";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CF51180A1E720C71008EA34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D882A848BA5C1D97560CEDA /* Pods-AirHiveTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HCZPEUR3M7;
+				INFOPLIST_FILE = AirHiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthiksankar.AirHiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirHive.app/AirHive";
+			};
+			name = Debug;
+		};
+		CF51180B1E720C71008EA34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F01A63CA16C67B563D2A6680 /* Pods-AirHiveTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HCZPEUR3M7;
+				INFOPLIST_FILE = AirHiveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthiksankar.AirHiveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AirHive.app/AirHive";
+			};
+			name = Release;
+		};
+		CF51180D1E720C71008EA34C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE9F17DC283F9647EE6837EA /* Pods-AirHiveUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HCZPEUR3M7;
+				INFOPLIST_FILE = AirHiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthiksankar.AirHiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AirHive;
+			};
+			name = Debug;
+		};
+		CF51180E1E720C71008EA34C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 090E6F04D170A71EFB09EC9B /* Pods-AirHiveUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HCZPEUR3M7;
+				INFOPLIST_FILE = AirHiveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.karthiksankar.AirHiveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = AirHive;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF5117D91E720C70008EA34C /* Build configuration list for PBXProject "AirHive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5118041E720C71008EA34C /* Debug */,
+				CF5118051E720C71008EA34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5118061E720C71008EA34C /* Build configuration list for PBXNativeTarget "AirHive" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF5118071E720C71008EA34C /* Debug */,
+				CF5118081E720C71008EA34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF5118091E720C71008EA34C /* Build configuration list for PBXNativeTarget "AirHiveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51180A1E720C71008EA34C /* Debug */,
+				CF51180B1E720C71008EA34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF51180C1E720C71008EA34C /* Build configuration list for PBXNativeTarget "AirHiveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF51180D1E720C71008EA34C /* Debug */,
+				CF51180E1E720C71008EA34C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF5117D61E720C70008EA34C /* Project object */;
+}

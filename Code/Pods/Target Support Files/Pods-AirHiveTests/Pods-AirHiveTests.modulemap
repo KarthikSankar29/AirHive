@@ -1,0 +1,6 @@
+framework module Pods_AirHiveTests {
+  umbrella header "Pods-AirHiveTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
